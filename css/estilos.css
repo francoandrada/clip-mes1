@@ -1,0 +1,135 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600px; 
+    line-height: 80px;
+}
+
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;     
+}
+
+th {
+    font-size: 24px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+
+.topmargin-xs { margin-top: 15px;}
+.topmargin-sm { margin-top: 30px;}
+.topmargin-lg { margin-top: 100px;}
+
+a b {
+    font-size: 35px;
+}
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: white;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.full-width {
+    width: inherit;
+}
+
+.btn ion-icon {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+.hero {
+    background-image: linear-gradient(to right, rgba(116, 235, 213, 0.5) 0%, rgba(159, 172, 230, 0.5) 100%),url('../images/christina-wocintechchat-com-49UXHs41UPI-unsplash.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    padding-top: 130px;
+    min-height: 700px;
+    color: white;
+}
+
+.hero p {
+    color: white;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.input-group {
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+#cantIntentos {
+    display:inline-block;
+    padding: 10px;
+}
+
+#cantIntentos strong {
+    font-size: 35px;
+}
+
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 48px;
+        line-height: normal;
+    }
+ }
+
+@media (min-width: 768px) { 
+    h1 {
+        font-size: 70px;
+        font-weight: 600px; 
+        line-height: 80px;
+    }
+ }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
